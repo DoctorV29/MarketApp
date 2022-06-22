@@ -1,0 +1,27 @@
+body {
+    padding: 30px;
+    padding-top: 10px;
+    font-family: Arial;
+}
+
+td, tr {
+    padding: 5px;
+    vertical-align: top;
+}
+
+input,textarea {
+    background-color: #DCDCDC;
+    width: 23ch;
+}
+
+select   {
+    background-color: #DCDCDC;
+    width: 24ch;
+}
+
+input[type=submit]{
+    background-color: #4169E1;
+    size: 30px;
+    height: 30px;
+    width: 130px;
+}

@@ -1,0 +1,74 @@
+section{
+padding: 0;
+margin: 0;
+}
+
+section{
+background-color: #F0F8FF;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-wight: 200px;
+margin: auto;
+text-align: center;
+font-family: sans-serif;
+}
+
+p{
+padding: 4px;
+font-size: 14px;
+margin: 15px;
+text-align: left;
+}
+h3 {
+margin: 15px;
+text-align: left;
+}
+ul {
+margin: 15px;
+text-align: left;
+}
+.price {
+color: #2E8B57;
+font-size: 18px;
+font-weight: bold;
+}
+.home {
+    display: inline-flex;
+    margin: 10px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 12px 30px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', Тahoma, sans-serif;
+    background: #337AB7;
+    cursor: pointer;
+    border: 2px solid #BFE2FF;
+    outline: 1px solid;
+    outline-color: #337AB7;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.home:hover,
+.home:active,
+.home:focus {
+    box-shadow: inset 0 0 20px #BFE2FF;
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    color: #FFF;
+}
+body{
+background-image: url(img/fon-4.jpg);
+min-height:100%;
+background-size:cover;
+}
